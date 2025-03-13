@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Power Automate ブログ</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- ✅ 外部CSSを適用 -->
 </head>
 <body>
     <h1>Power Automate 学習ブログ</h1>
@@ -25,39 +25,6 @@
             <h2>Power Automateの基本</h2>
             <p>Power Automateの基本的な使い方を解説します。</p>
             <p>Power Automateは、Microsoftが提供する業務自動化ツールで、企業や個人の生産性を向上させるために設計されています。このツールを使用すると、手作業で行っていた定型作業を自動化し、時間と労力を削減することができます。</p>
-            
-            <h3>Power Automateとは？</h3>
-            <p>Power Automateは、ワークフローの自動化を可能にするクラウドベースのサービスです。異なるアプリケーションやサービスを統合し、手作業を減らしながら、業務の流れをスムーズにします。Excel、SharePoint、Outlook、Teams などのMicrosoftサービスと連携できるだけでなく、Google DriveやSlackなどの外部サービスとも連携が可能です。</p>
-            
-            <h3>Power Automateの主な機能</h3>
-            <ul>
-                <li><strong>クラウドフロー:</strong> Web上のアプリケーションをつなげて自動化するフロー</li>
-                <li><strong>デスクトップフロー:</strong> ローカルPCの操作を自動化するフロー (旧称: UIフロー)</li>
-                <li><strong>トリガーとアクション:</strong> あるイベントが発生したときに特定の処理を実行</li>
-                <li><strong>テンプレートの利用:</strong> あらかじめ用意されたフローを活用してすぐに自動化を実現</li>
-            </ul>
-            
-            <h3>Power Automateの活用例</h3>
-            <p>Power Automateを利用することで、以下のような業務を簡単に自動化できます。</p>
-            <ul>
-                <li>メール受信時に自動で通知を送る</li>
-                <li>ExcelやSharePointのデータを自動で更新する</li>
-                <li>承認プロセスをワンクリックで実行</li>
-                <li>顧客からの問い合わせを自動で管理する</li>
-                <li>定期的なデータバックアップをスケジュール実行する</li>
-            </ul>
-            
-            <h3>Power Automateを使うメリット</h3>
-            <p>Power Automateを導入することで、次のようなメリットがあります。</p>
-            <ul>
-                <li><strong>時間の節約:</strong> 手作業を減らし、業務のスピードを向上</li>
-                <li><strong>ヒューマンエラーの削減:</strong> 自動化によりミスを防ぐ</li>
-                <li><strong>業務の標準化:</strong> 統一されたプロセスで業務を実行</li>
-                <li><strong>生産性の向上:</strong> 重要な業務に集中できる環境を作る</li>
-            </ul>
-            
-            <h3>まとめ</h3>
-            <p>Power Automateは、さまざまな業務プロセスを自動化し、効率化するための強力なツールです。Microsoftのエコシステムと深く統合されており、企業だけでなく個人の生産性向上にも役立ちます。初心者でもテンプレートを活用すれば簡単に始められるので、まずは試してみましょう！</p>
         </div>
     </div>
 
@@ -68,7 +35,7 @@
             document.body.style.fontSize = fontSizeSelect.value;
             localStorage.setItem("fontSize", fontSizeSelect.value);
         });
-        
+
         // 保存されている文字サイズを適用
         window.onload = function() {
             const savedFontSize = localStorage.getItem("fontSize");
@@ -78,6 +45,7 @@
             }
         };
     </script>
+
     <div class="download">
         <h3>Power Automateのダウンロード</h3>
         <p>Power Automateをまだインストールしていない方は、以下のリンクからダウンロードできます。</p>
